@@ -41,9 +41,11 @@
             </div>
             <div class="filter-range-price-container">
               <p class="filter-range-price__text">от</p>
-              <input class="filter-range-price filter-range-price-min" type="text" value="0" name="price">
+              <input class="input-hidden" type="text" value="0" id="price-min">
+              <label class="filter-range-price filter-range-price-min" for="price-min">0</label>
               <p class="filter-range-price__text">до</p>
-              <input class="filter-range-price filter-range-price-max" type="text" value="15 000" name="price">
+              <input class="input-hidden" type="text" value="15 000" id="price-max">
+              <label class="filter-range-price filter-range-price-max" for="price-max">15 000</label>
             </div>
           </div>
           <div class="filter-layot">
@@ -112,11 +114,11 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-sedona.jpg" alt="Седона" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">Sedona</a>
-              <p class="project-popap__description project-popap__description--short">Информационный сайт для туристов
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">Sedona</a>
+              <p class="project-popup__description project-popup__description--short">Информационный сайт для туристов
               </p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
 
@@ -127,10 +129,10 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-pink.jpg" alt="Пинк" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">Pink app</a>
-              <p class="project-popap__description">Продуктовый лендинг приложения для iOS и Android</p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">Pink app</a>
+              <p class="project-popup__description">Продуктовый лендинг приложения для iOS и Android</p>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
 
@@ -141,11 +143,11 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-barbershop.jpg" alt="Барбершоп" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">Barbershop</a>
-              <p class="project-popap__description project-popap__description--short">Сайт салона красоты. Для мужчин,
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">Barbershop</a>
+              <p class="project-popup__description project-popup__description--short">Сайт салона красоты. Для мужчин,
                 да.</p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
 
@@ -156,11 +158,11 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-mishka.jpg" alt="Мишка" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">Mishka</a>
-              <p class="project-popap__description project-popap__description--short">Интернет-магазин вязаных игрушек
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">Mishka</a>
+              <p class="project-popup__description project-popup__description--short">Интернет-магазин вязаных игрушек
               </p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
 
@@ -171,10 +173,10 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-aplus.jpg" alt="А плюс" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">A Plus</a>
-              <p class="project-popap__description">Лендинг курсов повышения кваликации</p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">A Plus</a>
+              <p class="project-popup__description">Лендинг курсов повышения кваликации</p>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
 
@@ -185,18 +187,18 @@
               <div class="circle"></div>
             </div>
             <img src="img/img-kvast.jpg" alt="Кваст" width="360" height="576">
-            <div class="project-popap">
-              <a href="#" class="project-popap__title">Кваст</a>
-              <p class="project-popap__description">Промо-сайт производиеля крафтового кваса</p>
-              <a class="project-popap__actual-price">9 900 РУБ.</a>
+            <div class="project-popup">
+              <a href="#" class="project-popup__title">Кваст</a>
+              <p class="project-popup__description">Промо-сайт производиеля крафтового кваса</p>
+              <a class="project-popup__actual-price">9 900 РУБ.</a>
             </div>
           </li>
         </ul>
-        <ul class="paginator">
-          <li><a class="paginator__item paginator__item-active" href="#">1</a></li>
-          <li><a class="paginator__item" href="#">2</a></li>
-          <li><a class="paginator__item" href="#">3</a></li>
-          <li><a class="paginator__item paginator__item--next" href="#">следующая</a></li>
+        <ul class="pagination">
+          <li><a class="pagination__item pagination__item-active" href="#">1</a></li>
+          <li><a class="pagination__item" href="#">2</a></li>
+          <li><a class="pagination__item" href="#">3</a></li>
+          <li><a class="pagination__item pagination__item--next" href="#">следующая</a></li>
         </ul>
       </div>
     </div>
@@ -206,7 +208,7 @@
       <div class="contacts-container__info">
         <h3 class="contacts-container__title">NЁRDS DESIGN STUDIO</h3>
         <p class="contacts-container__contact">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <p class="contacts-container__contact">тел. +7 (812) 275-75-75</p>
+        <a class="contacts-container__telephone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
         <a href="#" class="contacts-link">Напишите нам</a>
       </div>
     </div>
