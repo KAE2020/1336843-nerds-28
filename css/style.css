@@ -21,7 +21,6 @@
 
 body {
 min-width: 1160px;
-padding: 0 20px;
 margin: 0 auto;
 font-family: "Roboto", "Arial", sans-serif;
 }
@@ -593,8 +592,8 @@ padding-left: 49px;
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
-margin-top: 53px;
-margin-bottom: 27px;
+margin-top: 54px;
+margin-bottom: 29px;
 }
 
 .contacts-container__contact {
@@ -759,7 +758,7 @@ font-size: 16px;
 font-weight: 400;
 color: #283136;
 margin: 0;
-margin-top: 8px;
+margin-top: 11px;
 }
 
 /*Каталог на второй странице*/
@@ -1088,7 +1087,6 @@ display: grid;
 align-items: start;
 grid-template-columns: -webkit-min-content -webkit-min-content;
 grid-template-columns: min-content min-content;
-
 width: 760px;
 list-style: none;
 padding-left: 0;
